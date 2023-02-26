@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+body{
+    /* background-color:#f857a6; */
+    background-image:  linear-gradient(to right,#E55D87,#5FC3E4);
+    font-family: 'Pacifico', sans-serif;
+}
+
+#container{
+    /* background-color:#ecf0f1; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#main{
+    width: 30%;
+    box-shadow: 0 0 5px rgb(50, 50, 50);
+    background-color: #ecf0f1;
+    border-radius: 08px;
+    padding: 15px;
+}
+#submit-btn{
+    background-color:#27ae60 ;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 3.7vh;
+    color: white;
+    box-shadow: 0 0 5px rgb(50, 50, 50);
+    cursor: pointer;
+    font-size: 15px;
+}
+h1{
+    padding-bottom: 25px;
+}
+#box-col{
+    width: 100%;
+    height: 2.5rem;
+    margin-left: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+.heading{
+    padding-bottom: 40px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 70px;
+    color: #003973;
+    text-shadow: 4px 2px rgb(50, 50, 50) ;
+}
+#exit-btn{
+    width:40%;
+    background-color: #516395;
+    color: white;
+    font-size: 20px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(50, 50, 50);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#restart-btn{
+    width:40%;
+    background-color:#134E5E ;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(50, 50, 50);
+    margin-top: 30px;
+}
+#h3{
+    margin-top: 20px;
+}
+@media screen and (max-width:480px) {
+    
+    #container{
+        transform: scale(0.7);
+    }
+    #main{
+        width: auto;
+        height: auto;
+    }
+    .heading{
+        font-size: 55px;
+    }
+}

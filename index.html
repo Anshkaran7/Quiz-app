@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/jpg" href="logoQuiz.jpg">
+</head>
+<body>
+    <section id="container">
+        <h2 class="heading"> <u> Quiz Game</u> </h2>
+        <div id="main">
+            <h1 id="que-box">1) Question</h1>
+            <div id="box-col">
+                <input class="options" id="option1" name="option" type="radio" value="a" >
+                <label for="option1">Option1</label>
+            </div>
+            <div id="box-col">
+                <input class="options" id="option2" name="option" type="radio" value="b" >
+                <label for="option2">Option2</label>
+            </div>
+            <div id="box-col">
+                <input class="options" id="option3" name="option" type="radio" value="c" >
+                <label for="option3">Option3</label>
+            </div>
+            <div id="box-col">
+                <input class="options" id="option4" name="option" type="radio" value="d" >
+                <label for="option4">Option4</label>
+            </div>
+            <button id="submit-btn" onclick="submitQuiz()">Submit</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
